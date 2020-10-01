@@ -1,0 +1,13 @@
+import random
+minimum = 1
+maximum = 6
+
+roll_dice = "yes"
+
+while roll_dice == "yes" or roll_dice == "y" or roll_dice == "Y":
+    print "Rolling the dices..."
+    print "The values are...."
+    print random.randint(minimum, maximum)
+    print random.randint(minimum, maximum)
+
+    roll_dice = raw_input("Roll the dices again?")
